@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-table: #525b62;
+    --border-trans: 15px solid rgba(0, 0, 0, 0.1);
+    --text-color-primary: #ffffff;
+    --text-color-secundary: #171717;
+}
+
+.main {
+    background-image: url("/assets/resources/images/pagina_preguntas/background.jpg");
+    height: 100vh;
+
+}
+
+/* question-view */
+.question__body {
+    color: var(--text-color-primary);
+    background-color: var(--bg-table);
+    border: var(--border-trans);
+    background-clip: padding-box;
+}
+
+.file__side {
+    border: var(--border-trans);
+    font-size: 30px;
+    text-align: center;
+}
+
+.img__side {
+    height: 100vh;
+    width: 100%;
+}
+
+.question__header {
+    color: var(--text-color-primary);
+    background-color: var(--bg-table);
+    height: 200px;
+}
+
+/* pagina-respuesta-correcta */
+.answer__header {
+    color: var(--text-color-secundary);
+    background-color: var(--text-color-primary);
+}
+
+.answer__body {
+    color: var(--text-color-primary);
+    background-color: var(--text-color-secundary);
+}
+
+.file__side-answer {
+    border: 2px solid white;
+    text-align: center;
+}
+
+.answer__table {
+    text-align: center;
+}
+
+.answers__tables {
+    background-color: var(--bg-table);
+    padding: 20px;
+}
+
+.moon {
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.span__points {
+    font-size: 10px;
+    padding: 5px;
+}
+
+/* marco-jugadores */
+
+.framework__header {
+    color: var(--text-color-primary);
+    text-align: center;
+    border: var(--border-trans);
+    background-clip: padding-box;
+}
+
+.file__framework {
+    border: var(--border-trans);
+    background-clip: padding-box;
+}
+
+.framework__header .file__framework {
+    background-color: var(--bg-table);
+    /* border: var(--border-trans); */
+    background-clip: padding-box;
+}
+
+.framework__body {
+    color: var(--text-color-primary);
+    text-align: center;
+    font-size: 40px;
+}
+
+.plus__points {
+    font-size: 10px;
+}
+
+.framework__body .file__framework:nth-child(1) {
+    background-color: #006837;
+    border: var(--border-trans);
+    background-clip: padding-box;
+}
+
+.framework__body .file__framework:nth-child(2) {
+    background-color: #AEA908;
+    border: var(--border-trans);
+    background-clip: padding-box;
+}
+
+.framework__body .file__framework:nth-child(3) {
+    background-color: #FF1D25;
+    border: var(--border-trans);
+    background-clip: padding-box;
+}
+
+.framework__body .file__framework:nth-child(4) {
+    background-color: #29A5DC;
+    border: var(--border-trans);
+    background-clip: padding-box;
+}
+
+.framework__left {
+    background-image: url(/assets/resources/images/vista_ganadores/li.png);
+    background-size: contain;
+    background-repeat: round;
+    height: 100vh;
+}
+
+.framework__right {
+    background-image: url(/assets/resources/images/vista_ganadores/ld.png);
+    background-size: contain;
+    background-repeat: round;
+    height: 100vh;
+
+}
